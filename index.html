@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="registrieren">
+    <form action="Registrierung.php">
+        <table>
+            <span id = regedit> Registrieren</span>
+            <div>
+                <input type="radio" name="rechte" value="Mitarbeiter" checked>Mitarbeiter
+            </div>
+            <div>
+                <input type="radio" name="rechte" value="Administrator">Administrator
+            </div>
+            <tr>
+                <td>Benutzername</td>
+                <td><input type="text" name="benutzername"/></td>
+            </tr>
+            <tr>
+                <td>Vorname</td>
+                <td><input type="text" name="vname"/></td>
+            </tr>
+            <tr>
+                <td>Nachname</td>
+                <td><input type="text" name="nname"/></td>
+            </tr>
+            <tr>
+                <td>Geschlecht</td>
+                <input type="radio" name="gesch" value="m">Männlich
+                <input type="radio" name="gesch" value="w">Weiblich
+            </tr>
+            <tr>
+                <td>Passwort</td>
+                <td><input type="password" name="pw"/></td>
+            </tr>
+            <tr>
+                <td>Passwort wiederholen</td>
+                <td><input type="password" name="pw2"/></td>
+            </tr>
+            <tr>
+                <td>Geburtsdatum</td>
+                <td><input type="date" name="geb"/></td>
+            </tr>
+            <tr>
+                <td>Telefonnummer</td>
+                <td><input type="text" name="tel"/></td>
+            </tr>
+            <tr>
+                <td>Postleitzahl</td>
+                <td><input type="text" name="plz"/></td>
+            </tr>
+            <tr>
+                <td>Ort</td>
+                <td><input type="text" name="ort"/></td>
+            </tr>
+            <tr>
+                <td>Straße</td>
+                <td><input type="text" name="str"/></td>
+            </tr>
+            <tr>
+                <td>Hausnummer</td>
+                <td><input type="text" name="hnr"/></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="text" name="email"/></td>
+            </tr>
+
+        </table>
+        <input type="submit" onclick="message()"/>
+    </form>
+</div>
+</body>
+</html>
