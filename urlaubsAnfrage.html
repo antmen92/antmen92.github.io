@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="urlaubsAnfrage">
+    <form action="urlaubsAnfrage.php">
+        <table>
+            <span id = regedit> Abweseneheit</span>
+            <select name="typ" size="3">
+                <option>Krankheit</option>
+                <option>Urlaub</option>
+                <option checked>Freistellung</option>
+            </select>
+            <tr>
+                <td>Datum von</td>
+                <td><input type="date" name="von"/></td>
+            </tr>
+            <tr>
+                <td>Datum bis</td>
+                <td><input type="date" name="bis"/></td>
+            </tr>
+            <tr>
+                <td>Grund</td>
+                <td><input type="text" name="grund"/></td>
+            </tr>
+        </table>
+        <input type="submit" onclick="message()"/>
+    </form>
+</div>
+</body>
+</html>
